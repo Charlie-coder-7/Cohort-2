@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Apple;
+    src: url(./sf-pro-display_semibold.woff2);
+}
+*{
+    font-family: Apple ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    color: white;
+}
+#nav{
+    padding: 10px 70px;
+    
+}
+#nav a{
+    color: white;
+    font-size: 25px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+#main>h1{
+    font-size: 300px;
+    padding-left: 50px;
+    font-weight: 300;
+}
+#btmleft{
+    width: 300px;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+}
+#btmleft h3{
+    font-size: 30px;
+}
+#btmleft p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#btmleft h4{
+    margin-top: 50px;
+}
+#bottombar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:30px 70px;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+}
+#bottombar a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+#main>img{
+  position: absolute;
+  height: 350px;
+}
+#main #Girl1{
+    height: 350px;
+    top: 40%;
+    left: 55%;
+}
+#main #Girl2{
+    height: 300px;
+    top: 35%;
+    left: 40%;
+}
+#main #Sweater{
+    height: 200px;
+    top: 60%;
+    left: 30%;
+}
