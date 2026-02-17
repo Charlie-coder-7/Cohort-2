@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 200px;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-image: url(https://images.unsplash.com/photo-1769788873505-c2d2f570ae0c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4Mnx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    transform: translateX(-50%);
+    transform: translateY(50%);
+    transform: rotate(45deg);
+    transform: rotateX(180deg);
+    transform: rotateY(45deg);
+    transform: scale(2);
+} */
+body{
+    padding: 20px;
+}
+.card{
+    height: 350px;
+    width: 300px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.bottom{
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(transparent,black);
+    bottom: -40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    transition: all ease 0.3s;
+}
+.bottom h4{
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+.bottom h3{
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+.card:hover .bottom{
+    bottom: 0%;
+    
+}
